@@ -2,7 +2,7 @@ const url = 'https://yahoo-weather5.p.rapidapi.com/weather?location=';
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': '2706a935b1msh9d7docde0b7e93fp119262jsn38fc9a01b187',  // Replace with your actual key
+        'x-rapidapi-key': '2706a935b1msh9d7docde0b7e93fp119262jsn38fc9a01b187',  
         'x-rapidapi-host': 'yahoo-weather5.p.rapidapi.com'
     }
 };
