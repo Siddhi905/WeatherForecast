@@ -1,0 +1,161 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #00c6ff;
+}
+
+.navbar .navbar-toggler {
+    border-color: #fff;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#city-name {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background-color: #0072ff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+.card-body p {
+    font-size: 1.2rem;
+}
+
+.table-responsive {
+    margin-top: 30px;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #0072ff;
+}
+
+.table td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.btn-outline-success {
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+.btn-outline-success:hover {
+    background-color: #00c6ff;
+    border-color: #00c6ff;
+}
+
+h2.display-6 {
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.text-center {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .card-body h2 {
+        font-size: 2rem;
+    }
+
+    .card-body p {
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .btn-outline-success {
+        font-size: 1rem;
+    }
+}
